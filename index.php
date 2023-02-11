@@ -1,10 +1,4 @@
-<html>
-  <head>
-    <title>handenawer</title>
-  </head>
-  <body>
-    <h1>
-      <?php 
+<?php 
 	$respuestas = array( //Emotes que quieras que sean screamers
 		"KottyItsOk",
 		"kottyKanye",
@@ -36,7 +30,3 @@
 	$random = array_rand($respuestas); //La ultima no debe tener "," al final, el resto si
 	echo $respuestas[$random];
 ?>
-    </h1>
-   
-  </body>
-</html>
