@@ -1,0 +1,32 @@
+<?php 
+	$respuestas = array( //Emotes que quieras que sean screamers
+		"KottyItsOk",
+		"kottyKanye",
+		"kotiPees",
+		"KOTIEXPLODE",
+		"kotiburrito",
+		"kottyOnia",
+		"kottyStab kotiburrito",
+		"kotiFlor toma",
+		"kotiPees ama me mie",
+		"KottyItsOk teveo dormir",
+		"kotiDeath uy",
+		"koticalva de pelos",
+		"KottyItsOk por favor despierta KottyItsOk no es real",
+		"kotiFlor toma, te quiero mucho",
+		"kotiFlor toma pa ti",
+		"kottyLeave ya fue, yo me largo",
+		"kotiLife",
+		"kottyStare kottyKnife que miras?",
+		"kottyOnia kottyPout <- le esta dando pats",
+		"kottyOnia koticalva <- le esta dando zapes ",
+		"kotiDeath que demonios ocurrio?",
+		"kottyPillow no digas eso papu",
+		"kottyPillow no digas eso mamu",
+		"kotiFlor bom día!",
+		"kottyAmen alabado sea",
+		"kottyHeh apoco?"
+		);
+	$random = array_rand($respuestas); //La ultima no debe tener "," al final, el resto si
+	echo $respuestas[$random];
+?>
