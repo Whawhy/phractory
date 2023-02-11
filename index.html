@@ -3,8 +3,7 @@
     <title>Mi página PHP/HTML</title>
   </head>
   <body>
-    <h1>Mi respuesta aleatoria</h1>
-    <p>
+    <h1>
       <?php
         $respuestas = array( //Emotes que quieras que sean screamers
           "KottyItsOk",
@@ -12,7 +11,6 @@
         );
         $random = array_rand($respuestas); //La última no debe tener "," al final, el resto si
         echo $respuestas[$random];
-      ?>
-    </p>
+      ?></h1>
   </body>
 </html>
